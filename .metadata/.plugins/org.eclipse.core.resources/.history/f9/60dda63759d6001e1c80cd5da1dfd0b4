@@ -1,0 +1,17 @@
+package web;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+
+public class Test {
+
+	public static void main(String[] args) 
+	{
+		WebDriver driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "E:\\Automation\\chrome-win64\\chrome-win64\\chrome.exe");
+		System.out.println("Prayama Bishshash");
+
+	}
+
+}
